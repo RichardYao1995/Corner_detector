@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianu/onlyCatkin_ws/src/corner_detector
+CMAKE_SOURCE_DIR = /home/dayan/catkin_ws/src/corner_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianu/onlyCatkin_ws/src/corner_detector/build
+CMAKE_BINARY_DIR = /home/dayan/catkin_ws/src/corner_detector/build
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -60,6 +60,6 @@ CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /home/tianu/onlyCatkin_ws/src/corner_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianu/onlyCatkin_ws/src/corner_detector /home/tianu/onlyCatkin_ws/src/corner_detector /home/tianu/onlyCatkin_ws/src/corner_detector/build /home/tianu/onlyCatkin_ws/src/corner_detector/build /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dayan/catkin_ws/src/corner_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dayan/catkin_ws/src/corner_detector /home/dayan/catkin_ws/src/corner_detector /home/dayan/catkin_ws/src/corner_detector/build /home/dayan/catkin_ws/src/corner_detector/build /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 

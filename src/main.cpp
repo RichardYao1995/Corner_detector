@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     //cout<<"base_path:"<<basePath<<endl;
 
     //Load Image
-    string basePath="/home/tianu/onlyCatkin_ws/src/corner_detector/data/";
+    string basePath="/home/dayan/catkin_ws/src/corner_detector/data/";
     string imagePath=basePath+"10.jpg";
     //cv::Mat image=cv::imread(basePath+"caliPattern_1.jpg");
     cv::Mat image=cv::imread(imagePath);

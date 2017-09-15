@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianu/onlyCatkin_ws/src/corner_detector
+CMAKE_SOURCE_DIR = /home/dayan/catkin_ws/src/corner_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianu/onlyCatkin_ws/src/corner_detector/build
+CMAKE_BINARY_DIR = /home/dayan/catkin_ws/src/corner_detector/build
 
 # Utility rule file for clean_test_results.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/tianu/onlyCatkin_ws/src/corner_detector/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/tianu/onlyCatkin_ws/src/corner_detector/build/test_results
+	/usr/bin/python /opt/ros/indigo/share/catkin/cmake/test/remove_test_results.py /home/dayan/catkin_ws/src/corner_detector/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/tianu/onlyCatkin_ws/src/corner_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianu/onlyCatkin_ws/src/corner_detector /home/tianu/onlyCatkin_ws/src/corner_detector /home/tianu/onlyCatkin_ws/src/corner_detector/build /home/tianu/onlyCatkin_ws/src/corner_detector/build /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dayan/catkin_ws/src/corner_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dayan/catkin_ws/src/corner_detector /home/dayan/catkin_ws/src/corner_detector /home/dayan/catkin_ws/src/corner_detector/build /home/dayan/catkin_ws/src/corner_detector/build /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

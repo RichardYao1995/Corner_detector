@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec73802431/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec73802431.dir/build.make CMakeFiles/cmTryCompileExec73802431.dir/build
-make[1]: Entering directory `/home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec73802431.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec73802431.dir/CheckSymbolExists.c.o   -c /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec73802431
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec73802431.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec73802431.dir/CheckSymbolExists.c.o  -o cmTryCompileExec73802431 -rdynamic 
-CMakeFiles/cmTryCompileExec73802431.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:/usr/bin/make "cmTryCompileExec2283054583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2283054583.dir/build.make CMakeFiles/cmTryCompileExec2283054583.dir/build
+make[1]: Entering directory `/home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2283054583.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2283054583.dir/CheckSymbolExists.c.o   -c /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2283054583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2283054583.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2283054583.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2283054583 -rdynamic 
+CMakeFiles/cmTryCompileExec2283054583.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec73802431] Error 1
-make: *** [cmTryCompileExec73802431/fast] Error 2
+make[1]: *** [cmTryCompileExec2283054583] Error 1
+make[1]: Leaving directory `/home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2283054583/fast] Error 2
 
-File /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,21 +33,21 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3181993704/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3181993704.dir/build.make CMakeFiles/cmTryCompileExec3181993704.dir/build
-make[1]: Entering directory `/home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3181993704.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3181993704.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3181993704
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3181993704.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3181993704.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3181993704 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec2986837174/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2986837174.dir/build.make CMakeFiles/cmTryCompileExec2986837174.dir/build
+make[1]: Entering directory `/home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2986837174.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2986837174.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2986837174
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2986837174.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2986837174.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2986837174 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: Leaving directory `/home/tianu/onlyCatkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec3181993704] Error 1
-make: *** [cmTryCompileExec3181993704/fast] Error 2
+make[1]: *** [cmTryCompileExec2986837174] Error 1
+make[1]: Leaving directory `/home/dayan/catkin_ws/src/corner_detector/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2986837174/fast] Error 2
 
 
